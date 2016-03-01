@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< HEAD
 Debug|Win32|C:\Users\mwitt18\Documents\GitHub\CS-172\HW_2\EX02_02\|
+=======
+Debug|Win32|C:\Users\jflinn18\Documents\GitHub\mWitt18\CS-172\HW_2\EX02_02\|
+>>>>>>> origin/master
