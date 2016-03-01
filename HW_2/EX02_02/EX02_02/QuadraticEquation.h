@@ -20,6 +20,13 @@ public:
 		c = 0;
 	}
 
+	QuadraticEquation(double a1, double b1, double c1)
+	{
+		a = a1;
+		b = b1;
+		c = c1;
+	}
+
 	//Sets the variables that the users entered as a, b, c
 	void seta(double a1) {
 		a = a1;
@@ -34,19 +41,19 @@ public:
 	}
 
 	//This will return the discriminant that will later be used in the root equations
-	double getdiscrim(double a, double b, double c) {
+	double getdiscrim() {
 		discriminant = pow(b, 2) - 4 * a*c; //Equation of the discriminant
 		return discriminant;
 	}
 
 	//Quadratic equation (with the plus sign)
-	double getRoot1(double a, double b, double c) {
+	double getRoot1() {
 		r1 = (-b + pow(discriminant, 0.5)) / (2 * a);
 		return r1;
 	}
 
 	//Quadratic equation (with the minus sign)
-	double getRoot2(double a, double b, double c) {
+	double getRoot2() {
 		r2 = (-b - pow(discriminant, 0.5)) / (2 * a);
 		return r2;
 	}
