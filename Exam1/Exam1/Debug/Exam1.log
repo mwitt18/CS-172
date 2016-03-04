@@ -1,0 +1,109 @@
+﻿Build started 3/3/2016 9:47:21 PM.
+     1>Project "Z:\CS172\Exam1\Exam1\Exam1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Event.cpp Venue.cpp main.cpp
+         main.cpp
+     1>z:\cs172\exam1\exam1\venue.h(17): error C3646: 'scheduledEvents': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2143: syntax error: missing ',' before '['
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2143: syntax error: missing ')' before ';'
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\venue.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\venue.h(22): error C3646: 'findEvent': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(22): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\venue.h(22): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\venue.h(23): error C3646: 'findEvent': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(23): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\venue.h(23): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\event.h(18): error C3646: 'Title': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\cs172\exam1\exam1\event.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\event.h(23): error C3646: 'getTitle': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(23): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\event.h(23): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\event.h(25): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\main.cpp(20): error C2660: 'Venue::addEvent': function does not take 2 arguments
+     1>z:\cs172\exam1\exam1\main.cpp(21): error C2660: 'Venue::addEvent': function does not take 2 arguments
+     1>z:\cs172\exam1\exam1\main.cpp(22): error C2660: 'Venue::addEvent': function does not take 2 arguments
+     1>z:\cs172\exam1\exam1\main.cpp(24): error C2039: 'findEvent': is not a member of 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\main.cpp(24): error C2228: left of '.getTitle' must have class/struct/union
+     1>z:\cs172\exam1\exam1\main.cpp(25): error C2039: 'findEvent': is not a member of 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\main.cpp(25): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\main.cpp(26): error C2039: 'findEvent': is not a member of 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\main.cpp(26): error C2228: left of '.getTime' must have class/struct/union
+         Venue.cpp
+     1>z:\cs172\exam1\exam1\venue.h(17): error C3646: 'scheduledEvents': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2143: syntax error: missing ',' before '['
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2143: syntax error: missing ')' before ';'
+     1>z:\cs172\exam1\exam1\venue.h(17): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\venue.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\venue.h(22): error C3646: 'findEvent': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(22): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\venue.h(22): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\venue.h(23): error C3646: 'findEvent': unknown override specifier
+     1>z:\cs172\exam1\exam1\venue.h(23): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\venue.h(23): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\event.h(18): error C3646: 'Title': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\cs172\exam1\exam1\event.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\event.h(23): error C3646: 'getTitle': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(23): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\event.h(23): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\event.h(25): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\venue.cpp(18): error C2600: 'Venue::Venue': cannot define a compiler-generated special member function (must be declared in the class first)
+     1>z:\cs172\exam1\exam1\venue.cpp(25): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(25): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(27): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(27): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(32): error C2511: 'void Venue::addEvent(int,std::string)': overloaded member function not found in 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\venue.cpp(34): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(34): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(34): error C2228: left of '.getTitle' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(35): error C2352: 'Venue::validTime': illegal call of non-static member function
+         z:\cs172\exam1\exam1\venue.cpp(21): note: see declaration of 'Venue::validTime'
+     1>z:\cs172\exam1\exam1\venue.cpp(41): error C2039: 'findEvent': is not a member of 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\venue.cpp(47): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(47): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(48): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(48): error C2228: left of '.getTime' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(49): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(49): error C2228: left of '.getTitle' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(53): error C2039: 'findEvent': is not a member of 'Venue'
+         z:\cs172\exam1\exam1\venue.h(15): note: see declaration of 'Venue'
+     1>z:\cs172\exam1\exam1\venue.cpp(56): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(56): error C2228: left of '.getTitle' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(57): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(57): error C2228: left of '.getTitle' must have class/struct/union
+     1>z:\cs172\exam1\exam1\venue.cpp(58): error C2065: 'scheduledEvents': undeclared identifier
+     1>z:\cs172\exam1\exam1\venue.cpp(58): error C2228: left of '.getTime' must have class/struct/union
+         Event.cpp
+     1>z:\cs172\exam1\exam1\event.h(18): error C3646: 'Title': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\cs172\exam1\exam1\event.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\event.h(23): error C3646: 'getTitle': unknown override specifier
+     1>z:\cs172\exam1\exam1\event.h(23): error C2059: syntax error: '('
+     1>z:\cs172\exam1\exam1\event.h(23): error C2238: unexpected token(s) preceding ';'
+     1>z:\cs172\exam1\exam1\event.h(25): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\venue.h(21): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\venue.h(23): error C2061: syntax error: identifier 'string'
+     1>z:\cs172\exam1\exam1\event.cpp(21): error C2065: 'Title': undeclared identifier
+     1>z:\cs172\exam1\exam1\event.cpp(25): error C2511: 'Event::Event(int,std::string)': overloaded member function not found in 'Event'
+         z:\cs172\exam1\exam1\event.h(15): note: see declaration of 'Event'
+     1>z:\cs172\exam1\exam1\event.cpp(26): error C2597: illegal reference to non-static member 'Event::Time'
+     1>z:\cs172\exam1\exam1\event.cpp(27): error C2065: 'Title': undeclared identifier
+     1>z:\cs172\exam1\exam1\event.cpp(36): error C2039: 'getTitle': is not a member of 'Event'
+         z:\cs172\exam1\exam1\event.h(15): note: see declaration of 'Event'
+     1>z:\cs172\exam1\exam1\event.cpp(37): error C2065: 'Title': undeclared identifier
+     1>z:\cs172\exam1\exam1\event.cpp(46): error C2511: 'void Event::setTitle(std::string)': overloaded member function not found in 'Event'
+         z:\cs172\exam1\exam1\event.h(15): note: see declaration of 'Event'
+     1>z:\cs172\exam1\exam1\event.cpp(47): error C2065: 'Title': undeclared identifier
+         Generating Code...
+     1>Done Building Project "Z:\CS172\Exam1\Exam1\Exam1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.75
