@@ -1,0 +1,9 @@
+EX05_01: 
+EX05_02: 
+EX05_03: I like your use of <algorithm>
+EX05_04: 
+EX05_05: -3 Doesn't compile and the constructors aren't working correctly
+
+
+Notes: 
+- Nice comments
