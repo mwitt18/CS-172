@@ -1,0 +1,9 @@
+EX06_01: Great
+EX06_02: Nice work. What about just checking if the first element is less than 
+		 the second element and continue until you reach the end, if you don'than	
+		 then it isn't sorted and you can return false. Else return true
+EX06_03: No UML, but other than that, good job
+EX06_04: Looks good
+
+Extra Credit
+EX06_05: Started on it. +5

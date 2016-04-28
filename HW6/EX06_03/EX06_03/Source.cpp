@@ -80,6 +80,8 @@ template <typename T>
 void vector<T>::clear()
 {
 	delete[] buffer;
+	// Joseph: Nice work here, but what if I want to use the vector again after I clear it?
+	//         To fix this problem, you could reinitialize the buffer to an empty array
 }
 
 //Swaps two arrays
