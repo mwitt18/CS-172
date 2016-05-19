@@ -1,0 +1,6 @@
+City Name: Toronto 
+Median Home Value: $740,000 Canadian dollars which is equivalent to $576,000 U.S. dollars
+Interest Rate: 6.5%
+Loan Amount: $90
+It will cost you: $1.20228 per month to pay off the loan in 8 years
+This is equal to $1.5269 Canadian dollars per month

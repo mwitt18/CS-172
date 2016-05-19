@@ -1,0 +1,5 @@
+City Name: Seattle 
+Median Home Value: $557,000
+Interest Rate: 7%
+Loan Amount: $3999
+It will cost you: $24.9551 per month to pay off the loan in 39 years

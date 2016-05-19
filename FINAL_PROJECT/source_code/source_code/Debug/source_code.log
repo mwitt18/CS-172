@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\mwitt18\documents\github\cs-172\final_project\source_code\source_code\main.cpp(33): warning C4101: 'monthlypayment': unreferenced local variable
+c:\users\mwitt18\documents\github\cs-172\final_project\source_code\source_code\main.cpp(31): warning C4101: 'interestrate': unreferenced local variable
+  City.cpp
+  Generating Code...
+  source_code.vcxproj -> C:\Users\mwitt18\Documents\GitHub\CS-172\FINAL_PROJECT\source_code\Debug\source_code.exe

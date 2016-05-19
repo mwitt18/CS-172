@@ -1,0 +1,6 @@
+City Name: Tokyo 
+Median Home Value: 34,150,000 yen which is equivalent to $285,000 U.S. dollars
+Interest Rate: 5.3%
+Loan Amount: $3000
+It will cost you: $42.748 per month to pay off the loan in 7 years
+This is equal to 4540.69 yen per month
